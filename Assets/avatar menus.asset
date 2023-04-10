@@ -23,3 +23,23 @@ MonoBehaviour:
     subMenu: {fileID: 11400000, guid: 246bd59ebb2aca94fbe31619c0bad91a, type: 2}
     subParameters: []
     labels: []
+  - name: Shiny stuff
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 84aed33b79c8cc848816b74010fb333e, type: 2}
+    subParameters: []
+    labels: []
+  - name: Clothes
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: f42bd55a1c8ac754a96cdd58dd15a144, type: 2}
+    subParameters: []
+    labels: []
