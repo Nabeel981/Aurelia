@@ -12,7 +12,7 @@
     "autoSetAnchorOverride": true,
     "humanBoneAnchor": 7,
     "anchorOverrideObjectName": "AutoAnchorObject",
-    "autoSetAnchorAskedOnce": true,
+    "autoSetAnchorAskedOnce": false,
     "enableDeveloperMode": false,
     "forceAsyncCompilationPreview": true,
     "verion": "2.39.5"

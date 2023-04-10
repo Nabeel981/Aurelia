@@ -15,7 +15,7 @@ MonoBehaviour:
   parameters:
   - name: VRCEmote
     valueType: 0
-    saved: 0
+    saved: 1
     defaultValue: 0
     networkSynced: 1
   - name: VRCFaceBlendH
@@ -28,6 +28,7 @@ MonoBehaviour:
     saved: 1
     defaultValue: 0
     networkSynced: 1
+<<<<<<< HEAD
   - name: Go/Float
     valueType: 1
     saved: 0
@@ -103,3 +104,5 @@ MonoBehaviour:
     saved: 1
     defaultValue: 0
     networkSynced: 1
+=======
+>>>>>>> parent of 8081e76 (komit)

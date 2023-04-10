@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
   m_Name: avatar menus
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   controls:
   - name: GOGO
     icon: {fileID: 0}
@@ -43,3 +44,6 @@ MonoBehaviour:
     subMenu: {fileID: 11400000, guid: f42bd55a1c8ac754a96cdd58dd15a144, type: 2}
     subParameters: []
     labels: []
+=======
+  controls: []
+>>>>>>> parent of 8081e76 (komit)
