@@ -15,7 +15,7 @@ MonoBehaviour:
   parameters:
   - name: VRCEmote
     valueType: 0
-    saved: 1
+    saved: 0
     defaultValue: 0
     networkSynced: 1
   - name: VRCFaceBlendH
@@ -25,6 +25,46 @@ MonoBehaviour:
     networkSynced: 1
   - name: VRCFaceBlendV
     valueType: 1
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: Go/Float
+    valueType: 1
+    saved: 0
+    defaultValue: 0.25
+    networkSynced: 1
+  - name: Go/Stationary
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: Go/Locomotion
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: Go/JumpAndFall
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: Go/ScaleFloat
+    valueType: 1
+    saved: 1
+    defaultValue: 0.25
+    networkSynced: 1
+  - name: Go/Horizon
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: Go/ThirdPerson
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: Go/ThirdPersonMirror
+    valueType: 2
     saved: 1
     defaultValue: 0
     networkSynced: 1
