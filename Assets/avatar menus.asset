@@ -23,3 +23,33 @@ MonoBehaviour:
     subMenu: {fileID: 11400000, guid: 246bd59ebb2aca94fbe31619c0bad91a, type: 2}
     subParameters: []
     labels: []
+  - name: non shiny stuff
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 87acb5d0ba7a6fe4eae87d32ff5d5424, type: 2}
+    subParameters: []
+    labels: []
+  - name: Shiny stuff
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: c809b30ef91e5fd4d91792c501ae7bf8, type: 2}
+    subParameters: []
+    labels: []
+  - name: Hairs and Horns
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: f10cadb8053baea4db3d8f09acfbe71a, type: 2}
+    subParameters: []
+    labels: []

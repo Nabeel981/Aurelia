@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: non shiny stuff
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Bra
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: non shiny stuff/Bra
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Choker
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: non shiny stuff/Corset
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Dress
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: non shiny stuff/Dress
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Gloves
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: non shiny stuff/Gloves
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Heels
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: non shiny stuff/Heels
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Pants
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: non shiny stuff/Pants
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Page 2
+    icon: {fileID: 2800000, guid: 472ea6a9fb5b0124cb307d74cd50ec09, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: a00120c1ccaadc049b450782952afd90, type: 2}
+    subParameters: []
+    labels: []

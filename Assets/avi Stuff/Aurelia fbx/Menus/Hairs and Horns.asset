@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Hairs and Horns
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Long  Hair
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: Hairs and Horns/Long  Hair
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Short Hair
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: Hairs and Horns/Short Hair
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Spiky Hair
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: Hairs and Horns/Spiky Hair
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Baby Horns
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: Hairs and Horns/Baby Horns
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: dark shiny horns
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: Hairs and Horns/dark shiny horns
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
