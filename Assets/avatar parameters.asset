@@ -193,3 +193,13 @@ MonoBehaviour:
     saved: 1
     defaultValue: 0
     networkSynced: 1
+  - name: Hairs and Horns/Hair Color Magic
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: Shiny stuff 2/mask
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1

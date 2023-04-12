@@ -7,17 +7,15 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: blond
-  m_Shader: {fileID: 4800000, guid: 357453006f1c43548b7cedf7eaa3ff19, type: 3}
-  m_ShaderKeywords: 
+  m_Name: silver 1
+  m_Shader: {fileID: 4800000, guid: 584dc70fbb9834e48beb29e3206e3ca0, type: 3}
+  m_ShaderKeywords: VIGNETTE_MASKED _GLOSSYREFLECTIONS_OFF _LIGHTINGMODE_FLAT _RIM2STYLE_POIYOMI
+    _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
-  stringTagMap:
-    AllLockedGUIDS: 0415f3609b0bbfe49b2a93103dca14a4,c3810855ea41d1a4aab116dfc25cf372,c7372e82c79b0c64ab787d0965e5e6d9,522af7f109c85094e8e0e8859595fd20,7d7c2bcfce884774b8b91131e411220d,f465e61c9561db642bb76703324af0f8
-    OriginalShader: .poiyomi/Poiyomi 8.1/Poiyomi Toon
-    RenderType: Opaque
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -59,7 +57,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 1f49fe9ab5c29bb46baa0b66f50126ef, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ClearCoatFallback:
@@ -171,7 +169,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: 9df48c92c180716419e5d918df41195f, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap1:
@@ -299,7 +297,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 70a7a75ef9242a34b8c8c530232d9ea0, type: 3}
+        m_Texture: {fileID: 2800000, guid: ef8c3cf05b3075a4787abd1a3459554f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCap:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Matcap:
@@ -828,7 +830,7 @@ Material:
     - _CubeMapReplace: 1
     - _CubeMapUVMode: 1
     - _CubeMapWorldNormalsStrength: 1
-    - _Cull: 0
+    - _Cull: 2
     - _CurvFix: 1
     - _CurvatureU: 0
     - _CurvatureV: 0
@@ -1184,7 +1186,7 @@ Material:
     - _EnableDissolveAudioLink: 0
     - _EnableDistortion: 0
     - _EnableDistortionAudioLink: 0
-    - _EnableEmission: 1
+    - _EnableEmission: 0
     - _EnableEmission1: 0
     - _EnableEmission2: 0
     - _EnableEmission3: 0
@@ -1807,7 +1809,7 @@ Material:
     - _MatcapTPSMaskStrength: 1
     - _MatcapUVMode: 1
     - _MatcapUVToBlend: 1
-    - _Metallic: 0
+    - _Metallic: 0.762
     - _Mirror: 0
     - _MirrorColorThemeIndex: 0
     - _MirrorTextureBlendType: 0
@@ -2047,7 +2049,7 @@ Material:
     - _RimBackfaceMask: 1
     - _RimBaseColorMix: 0
     - _RimBlendMode: 0
-    - _RimBlendStrength: 0.465
+    - _RimBlendStrength: 1
     - _RimBlur: 0.65
     - _RimBorder: 0.5
     - _RimBrightness: 1
@@ -2115,7 +2117,7 @@ Material:
     - _Set_RimLightMaskChannel: 1
     - _Set_RimLightMaskUV: 0
     - _ShadeColor_Step: 0
-    - _ShaderOptimizerEnabled: 1
+    - _ShaderOptimizerEnabled: 0
     - _ShaderUIWarning0: -0
     - _ShaderUIWarning1: -0
     - _ShadingEnabled: 1
@@ -2136,6 +2138,7 @@ Material:
     - _ShadowOffset: 0
     - _ShadowReceive: 0
     - _ShadowStrength: 1
+    - _Shininess: 1
     - _SkinThicknessMapInvert: 0
     - _SkinThicknessMapUV: 0
     - _SkinThicknessPower: 1
@@ -2490,7 +2493,7 @@ Material:
     - m_end_vertexManipulation: 0
     - m_end_videoEffects: 0
     - m_lightingCategory: 1
-    - m_mainCategory: 1
+    - m_mainCategory: 0
     - m_modifierCategory: 0
     - m_postprocessing: 0
     - m_renderingCategory: 0
@@ -2599,7 +2602,7 @@ Material:
     - m_start_emission1Options: 0
     - m_start_emission2Options: 0
     - m_start_emission3Options: 0
-    - m_start_emissionOptions: 1
+    - m_start_emissionOptions: 0
     - m_start_flipBook: 0
     - m_start_glitter: 0
     - m_start_internalparallax: 0

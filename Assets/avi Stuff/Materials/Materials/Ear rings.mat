@@ -8,14 +8,14 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Ear rings
-  m_Shader: {fileID: 4800000, guid: 00976164112b158439238657035454db, type: 3}
-  m_ShaderKeywords: 
+  m_Shader: {fileID: 4800000, guid: 5ca92f1e9fc35504aba297fd1acd62df, type: 3}
+  m_ShaderKeywords: MOCHIE_PBR VIGNETTE_MASKED _GLOSSYREFLECTIONS_OFF _LIGHTINGMODE_FLAT
+    _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ _SUNDISK_SIMPLE
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2000
   stringTagMap:
-    AllLockedGUIDS: 24c8d765e49b36343b4e1ee4c302584a
     OriginalKeywords: MOCHIE_PBR VIGNETTE_MASKED _GLOSSYREFLECTIONS_OFF _LIGHTINGMODE_FLAT
       _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ _SUNDISK_SIMPLE
     OriginalShader: .poiyomi/Poiyomi 8.1/Poiyomi Toon
@@ -2117,7 +2117,7 @@ Material:
     - _Set_RimLightMaskChannel: 1
     - _Set_RimLightMaskUV: 0
     - _ShadeColor_Step: 0
-    - _ShaderOptimizerEnabled: 1
+    - _ShaderOptimizerEnabled: 0
     - _ShaderUIWarning0: -0
     - _ShaderUIWarning1: -0
     - _ShadingEnabled: 1
@@ -2492,7 +2492,7 @@ Material:
     - m_end_vertexManipulation: 0
     - m_end_videoEffects: 0
     - m_lightingCategory: 1
-    - m_mainCategory: 0
+    - m_mainCategory: 1
     - m_modifierCategory: 0
     - m_postprocessing: 0
     - m_renderingCategory: 0
@@ -2588,7 +2588,7 @@ Material:
     - m_start_backFace: 0
     - m_start_backlight: 0
     - m_start_blending: 0
-    - m_start_brdf: 1
+    - m_start_brdf: 0
     - m_start_brdfadvanced: 0
     - m_start_brdfglobalmask: 0
     - m_start_clearCoat: 0
@@ -2618,7 +2618,7 @@ Material:
     - m_start_rimLight1Options: 1
     - m_start_rimLightOptions: 1
     - m_start_stylizedSpec: 0
-    - m_start_subsurfaceScattering: 0
+    - m_start_subsurfaceScattering: 1
     - m_start_udimdiscardOptions: 0
     - m_start_uvDistortion: 0
     - m_start_uvLocalWorld: 0

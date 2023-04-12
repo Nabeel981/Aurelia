@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: blond
+  m_Name: white
   m_Shader: {fileID: 4800000, guid: 357453006f1c43548b7cedf7eaa3ff19, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -16,6 +16,8 @@ Material:
   m_CustomRenderQueue: 2000
   stringTagMap:
     AllLockedGUIDS: 0415f3609b0bbfe49b2a93103dca14a4,c3810855ea41d1a4aab116dfc25cf372,c7372e82c79b0c64ab787d0965e5e6d9,522af7f109c85094e8e0e8859595fd20,7d7c2bcfce884774b8b91131e411220d,f465e61c9561db642bb76703324af0f8
+    OriginalKeywords: VIGNETTE_MASKED _EMISSION _GLOSSYREFLECTIONS_OFF _LIGHTINGMODE_FLAT
+      _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ
     OriginalShader: .poiyomi/Poiyomi 8.1/Poiyomi Toon
     RenderType: Opaque
   disabledShaderPasses: []
@@ -299,7 +301,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 70a7a75ef9242a34b8c8c530232d9ea0, type: 3}
+        m_Texture: {fileID: 2800000, guid: 34039155b137c1844b423b65152516f6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Matcap:
